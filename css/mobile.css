@@ -1,0 +1,55 @@
+#preguntas {
+    height: 0%;
+    margin-top: 0;
+}
+
+#producto {
+    height: 100vh;
+    background-size: contain;
+
+}
+
+.home {
+    height: 100%;
+    
+}
+
+.boton {
+    width: 40%;
+    padding: 2%;
+}
+
+body {
+    display: block;
+    line-height:0;
+}
+
+#acercade {
+    height: 100vh;
+    background-size:  contain;
+}
+
+section article div h4 {
+    font-size: 75%;
+}
+
+section .articuloCuatro {
+    margin-top: auto;
+    margin-right: auto;
+
+    animation: lineas 5s both;
+    position: relative;
+}
+
+@keyframes lineas {
+    from {
+      margin-top: 100%;
+      width: ;  
+      height: ;
+   }
+  
+    to {
+      margin-top: 25%;
+  
+    }
+  }
