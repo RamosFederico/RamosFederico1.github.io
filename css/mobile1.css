@@ -1,0 +1,68 @@
+.home {
+    background-image: url(../img/Inicio.png);
+    background-size: 300%;
+    background-repeat: no-repeat;
+    height: 64vh;
+}
+
+.boton {
+    font-weight: 400;   
+    font-size: 70%;
+    color:white;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+#producto {
+    background-image: url(../img/Productos-3.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35vh;
+}
+
+#acercade {
+    background-image: url(../img/AcercaDeConPalabras.png); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 40vh;
+  
+  }
+
+.datos :nth-child(1) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff;
+    margin-inline: 3%;
+    font-size: 0px;
+  }
+
+  
+.sectionAcercaDe {
+    
+    margin-right: 5%;
+    margin: 5%;
+    margin-top: 0%;
+    grid-gap: 0px;
+    padding: 0px 0px;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 16%;
+    
+}
+
+.sectionAcercaDe h2 {
+    font-size: 80%;
+}
+
+section .articuloDos {
+    font-size: x-small;
+}
+
+.productosFooter {
+    bottom: 0; 
+    width: 60%; 
+    height: 40px;
+    position: absolute;
+    margin-bottom: 70%;
+}
