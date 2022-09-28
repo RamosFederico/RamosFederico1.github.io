@@ -46,6 +46,7 @@
 
 .cliente h2 {
   margin-bottom: 2%;
+
 }
 
 .tYc {
@@ -109,7 +110,7 @@ span {
 }
 
 .Subtitulo h2 {
-  width: 55%;
+  width: 85%;
   padding: 7%  ;
   font-family: palindrome;
 }
@@ -375,6 +376,11 @@ section p {
     color: aqua;
 }
 
+small {
+  color: #fff;
+  margin-bottom: 5%;
+}
+
 .productosFooter {
     bottom: 0; 
     width: 50%; 
@@ -418,13 +424,14 @@ form div .operaDaio {
   }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:1470px){
     .pie-pagina .grupo-1 {
         width: auto;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 40px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0px;
         padding: 45px 0px;
-        text-decoration: none
+        text-decoration: none;
+
     }
 }
 
