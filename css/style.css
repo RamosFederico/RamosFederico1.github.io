@@ -381,12 +381,7 @@ small {
   margin-bottom: 5%;
 }
 
-.productosFooter {
-    bottom: 0; 
-    width: 50%; 
-    height: 40px;
-    position: absolute;
-}
+
 
 form div .operaDaio {
     border-color: #00009b;
@@ -464,12 +459,12 @@ form div .operaDaio {
   }
   
   .productosFooter {
-    
-    height: 0%;
+    width: 50%; 
+    height: 40px;
     offset-path: path("M10 10 L25 10");
     offset-distance: 0%;
     animation: red-ball 2s linear alternate infinite;
-    
+    top: 36em;
   }
   
   @keyframes red-ball {
