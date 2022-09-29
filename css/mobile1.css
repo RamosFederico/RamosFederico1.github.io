@@ -60,11 +60,8 @@ section .articuloDos {
 }
 
 .productosFooter {
-    bottom: 0; 
-    width: 54%; 
-    height: 40px;
-    position: absolute;
-    margin-bottom: 15%;
+    margin-top: 6%;
+    width: 47%;
 }
 
 .cliente h2 {
